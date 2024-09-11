@@ -1,0 +1,10 @@
+name: Frist Workflow
+on: workflow_dispatch
+jobs: 
+  frist-job: 
+    runs-on: ubuntu-lateast
+    steps:
+      - name: Print greatning
+        run: echo "Hello World!"
+      - name: Print Goodbye
+        run: echo "Done - bye!"
